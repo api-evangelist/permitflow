@@ -1,0 +1,5 @@
+Contact: mailto:security@permitflow.com
+Expires: 2027-05-05T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://app.permitflow.com/.well-known/security.txt
+Canonical: https://permitflow.com/.well-known/security.txt

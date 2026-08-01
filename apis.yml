@@ -1,8 +1,14 @@
 aid: permitflow
 name: PermitFlow
-description: 'PermitFlow is a company surfaced as a portfolio company of accel, felicis, initialized-capital
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'PermitFlow is an AI-powered construction permitting platform that simplifies
+  permit preparation, submission, and tracking nationwide for contractors, home builders,
+  commercial contractors, architects, developers, and home-services businesses. The
+  product handles permitting paperwork across municipalities with AI agents for intake,
+  research, submission, coordination, and issuance, and covers permit management, inspections
+  and closeouts, and license and registration management. Backed by Accel, Felicis,
+  and Initialized Capital, PermitFlow operates an internal product API (api.permitflow.com)
+  and web application (app.permitflow.com) but does not currently publish a public
+  developer API, OpenAPI, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/permitflow/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +18,30 @@ x-backed-by:
 - initialized-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://cdn.prod.website-files.com/68a6cde46b14dd9b96588a82/68b85c2ef1faab2744a8d68b_og-image.jpg
 tags:
 - Company
-- Ai
+- Construction
+- Permitting
+- Government
+- Compliance
+- Real Estate
+- Construction Tech
+- AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +49,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/permitflow-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/permitflow-domain-security.yml
+- type: Security
+  url: well-known/permitflow-security.txt
+- type: SecurityTxt
+  url: well-known/permitflow-security.txt
+- type: WellKnown
+  url: well-known/permitflow-well-known.yml
+- type: LLMsTxt
+  url: llms/permitflow-llms.txt
+- type: Blog
+  url: https://www.permitflow.com/category/news
+- type: Support
+  url: https://www.permitflow.com/contact-us
+- type: TermsOfService
+  url: https://www.permitflow.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.permitflow.com/privacy-policy
+- type: SignUp
+  url: https://app.permitflow.com/
+- type: GitHubOrganization
+  url: https://github.com/PermitFlow
 - type: Website
-  url: http://www.permitflow.com/
+  url: https://www.permitflow.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
